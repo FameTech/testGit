@@ -14,3 +14,10 @@
 6)git branch -l
 7)git log --oneline
 8)git diff master
+
+
+git branch -l
+git checkout master
+git merge develop
+git diff develop
+git log --oneline
