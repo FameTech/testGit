@@ -1,0 +1,27 @@
+clear
+git branch -l
+ls -lart
+cat README.md
+echo "Develop Branch Commit" >> README.md
+cat README.md
+git status
+git add README.md
+git commit -m "Develop Branch Commit"
+git log --oneline
+git diff master
+history
+git branch -l
+git checkout master
+git merge develop
+git diff develop
+git log --oneline
+history
+git push origin develop
+git push origin master
+git log
+git remote -v
+ls -alrt
+ls -lart .git/
+vi .git/config
+git push origin master
+vi .git/config
