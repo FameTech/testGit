@@ -1,0 +1,16 @@
+1) create an account and create repository
+2) git clone "https://github.com/"
+3) cd "repo"
+4) create files
+5) git add .
+6) git commit -m "put your message"
+7) git push origin master
+
+1)git branch -l
+2)git branch develop
+3)git branch -l
+4)git log --oneline
+5)git checkout develop
+6)git branch -l
+7)git log --oneline
+8)git diff master
